@@ -12,8 +12,11 @@ header:
   cta_url: "https://www.albertsmysteries.com/20210206rita/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 
-excerpt: "Happy birthday Rita! I have a gift for you, but... something happaned when we sent it on your way. We think someone took it from your post box...
-Good news is that we have a clue to where it go!"
+excerpt: "Happy birthday Rita!
+
+We have a gift for you, but... something happaned when we sent it on your way.
+
+We think someone took it from your post box... Good news is that we have a clue to where it go!"
 
 intro: 
   - excerpt: 'Have fun!'

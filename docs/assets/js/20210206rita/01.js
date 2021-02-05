@@ -1,9 +1,9 @@
 function checkPassword() {
   if (document.getElementById("password").value == "pudding lane") {
-    alert("Correct Password!");
+    alert("Correct!");
     location.href = "https://www.albertsmysteries.com/20210206rita/02/";
   } else {
-    alert("Wrong Password!");
+    alert("Wrong!");
     return false;
   }
 }

@@ -9,7 +9,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: "/assets/images/unsplash-rita.jpg"
   cta_label: "Rita's mystery to solve!"
-  cta_url: "https://www.albertsmysteries.com/20210206rita/"
+  cta_url: "https://www.albertsmysteries.com/20210206rita/01"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 
 excerpt: "Happy birthday Rita!

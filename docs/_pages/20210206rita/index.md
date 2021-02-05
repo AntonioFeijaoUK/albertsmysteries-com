@@ -8,7 +8,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: "/assets/images/unsplash-rita.jpg"
-  cta_label: "Rita's mystery to solve!"
+  cta_label: "I am ready to solve this mystery!"
   cta_url: "https://www.albertsmysteries.com/20210206rita/01"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 
@@ -23,5 +23,5 @@ intro:
 
 ---
 
-#{% include feature_row id="intro" type="center" %}
+{% include feature_row id="intro" type="center" %}
 

@@ -1,5 +1,5 @@
 function checkPassword() {
-  if (document.getElementById("password").value == "lisbon") {
+  if (document.getElementById("password").value == "pudding lane") {
     alert("Correct Password!");
     location.href = "https://www.albertsmysteries.com/20210206rita/02/";
   } else {

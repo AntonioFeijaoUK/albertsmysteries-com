@@ -16,7 +16,7 @@ excerpt: "Happy birthday Rita!
 
 We have a gift for you, but... something happaned when we sent it on your way.
 
-We think someone took it from your post box... Good news is that we have a clue to where it go!"
+We think someone took it from your post box... Good news is that we have a clue to where it might have gone! Can you recover your gift?"
 
 intro: 
   - excerpt: 'Have fun!'

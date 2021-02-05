@@ -1,9 +1,9 @@
 function checkPassword() {
-  if (document.getElementById("password").value == "lisbon") {
-    alert("Correct Password!");
+  if (document.getElementById("password").value == "joel") {
+    alert("Correct!");
     location.href = "https://www.albertsmysteries.com/20210206rita/04/";
   } else {
-    alert("Wrong Password!");
+    alert("Wrong!");
     return false;
   }
 }

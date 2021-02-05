@@ -9,7 +9,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: "/assets/images/unsplash-gift.jpg"
   cta_label: "Give me my gift!"
-  cta_url: "https://www.albertsmysteries.com/20210206rita/01"
+  cta_url: "https://www.albertsmysteries.com/20210206rita/00/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 
 excerpt: ""

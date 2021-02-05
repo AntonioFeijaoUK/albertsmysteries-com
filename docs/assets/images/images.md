@@ -1,1 +1,1 @@
-images
+Images go in here.

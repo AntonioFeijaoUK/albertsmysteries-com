@@ -1,7 +1,7 @@
 function checkPassword() {
     if (document.getElementById("password").value == "green") {
         alert("Correct!");
-        location.href = "https://www.albertsmysteries.com/20210206rita/06/";
+        location.href = "https://www.albertsmysteries.com/20210206rita/09/";
     } else {
         alert("Wrong!");
         return false;

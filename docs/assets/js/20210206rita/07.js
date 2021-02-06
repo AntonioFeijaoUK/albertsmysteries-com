@@ -1,5 +1,5 @@
 function checkPassword() {
-    if (document.getElementById("password").value == "BOMB") {
+    if (document.getElementById("password").value == "bomb") {
         alert("Correct!");
         location.href = "https://www.albertsmysteries.com/20210206rita/08/";
     } else {

@@ -9,7 +9,7 @@ h1 {
   font-size: 300%;
   border: 2px solid powderblue;
   padding: 30px;
-  background-color:powderblue;
+  background-color: rgba(255, 165, 0, 0.73);
 }
 
 
@@ -19,5 +19,5 @@ h2 {
   font-size: 300%;
   border: 2px solid powderblue;
   padding: 30px;
-  background-color:powderblue;
+  background-color: rgba(255, 165, 0, 0.73);
 }

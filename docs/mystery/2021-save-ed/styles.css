@@ -1,5 +1,21 @@
-h1 {
-  color: white;
-  background: black;
+body {
+  background-color: powderblue;
 }
 
+
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+  border: 2px solid powderblue;
+  padding: 30px;
+}
+
+
+h2 {
+  color: blue;
+  font-family: verdana;
+  font-size: 100%;
+  border: 2px solid powderblue;
+  padding: 30px;
+}

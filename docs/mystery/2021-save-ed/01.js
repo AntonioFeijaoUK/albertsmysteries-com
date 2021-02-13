@@ -1,5 +1,5 @@
 console.log("Hello world!");
 
 function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello family!";
+  document.getElementById("demo").innerHTML = "CLICAS-TE no botao!";
 }

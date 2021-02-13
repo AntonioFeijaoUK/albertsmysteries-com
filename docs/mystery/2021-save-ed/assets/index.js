@@ -5,27 +5,15 @@ function myFunction() {
 }
 
 
-
-
 function clickSIM() {
   alert("FIXE! Muito obrigado, vamos a isso!");
-    location.href = "./01/";
-  } else {
-    alert("Wrong!");
-    return false;
-  }
+  location.href = "./01/";
 }
-
-
 
 
 function clickNAO() {
   alert("Ohhh minha nossa....");
-    location.href = "./";
-  } else {
-    alert("Wrong!");
-    return false;
-  }
+  location.href = "./";
 }
 
 

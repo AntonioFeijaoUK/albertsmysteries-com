@@ -30,7 +30,7 @@ body {
     /* Height of the footer */
 }
 
-.footer {
+.footer {/*
     color: white;
     background: #000;
     background-color: #000;
@@ -40,7 +40,7 @@ body {
     position: absolute;
     bottom: 0;
     width: 99%;
-    height: 0px;
+    height: 0px;*/
     /* Height of the footer */
 }
 

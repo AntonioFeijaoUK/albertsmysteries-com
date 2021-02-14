@@ -1,43 +1,185 @@
+html,
 body {
-  background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Verdana;
+    line-height: 1.5;
+    color: #000;
+    background-color: white;
 }
 
+.container {
+    min-height: 100%;
+    position: relative;
+    /* style="overflow:auto" */
+}
+
+.header {
+    color: #000;
+    background: white;
+    background-color: white;
+    text-align: left;
+    padding: 10px;
+    /* margin-top: 7px; */
+}
+
+.body {
+    padding: 10px;
+    padding-bottom: 60px;
+    /* Height of the footer */
+}
+
+.footer {
+    color: white;
+    background: #000;
+    background-color: #000;
+    text-align: center;
+    /* padding: 10px;
+    margin-top: 7px; */
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 60px;
+    /* Height of the footer */
+}
+
+.left {
+    /* background-color: #2196F3; */
+    padding: 5px;
+    float: left;
+    height: 100%;
+    width: 50%;
+    /* The width is 20%, by default */
+}
+
+.right-top {
+    /* background-color: #f1f1f1; */
+    padding: 5px;
+    float: left;
+    height: 50%;
+    width: 50%;
+    /* The width is 60%, by default */
+}
+
+.right-bottom {
+    /* background-color: #4CAF50; */
+    padding: 5px;
+    float: left;
+    height: 50%;
+    width: 50%;
+    /* The width is 20%, by default */
+}
+
+
+/*
+.body-background {
+    background-image: url('./images/unsplash-map.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+*/
 
 h1 {
-  color: white;
-  font-family: verdana;
-  font-size: 300%;
-  border: 2px solid powderblue;
-  padding: 30px;
-  background-color: rgba(255, 165, 0, 0.73);
+    /* color: #555555; */
+    /* font-family: verdana; */
+    font-size: 200%;
+    /* border: 2px solid powderblue;
+    padding: 30px;
+    background-color: rgba(255, 165, 0, 0.73); */
 }
-
 
 h2 {
-  color: white;
-  font-family: verdana;
-  font-size: 300%;
-  border: 2px solid powderblue;
-  padding: 30px;
-  background-color: rgba(255, 165, 0, 0.73);
+    /*  color: #555555; */
+    /* font-family: verdana; */
+    font-size: 150%;
+    /* border: 2px solid powderblue;
+    padding: 30px;
+    background-color: rgba(255, 165, 0, 0.73); */
 }
 
-
+p {
+    /* color: #555555; */
+    /* font-family: verdana; */
+    font-size: 100%;
+    /* border: 2px solid powderblue; */
+    /*  padding: 5px; */
+    /* background-color: rgba(255, 165, 0, 0.73);  */
+}
 
 .button-default {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
-.button-green {background-color: #4CAF50;} /* Green */
-.button-blue  {background-color: #008CBA;} /* Blue */
-.button-red   {background-color: #f44336;} /* Red */ 
-.button-gray  {background-color: #e7e7e7; color: black;} /* Gray */ 
-.button-black {background-color: #555555;} /* Black */
+.button-green {
+    background-color: #4CAF50;
+    /* Green */
+}
+
+.button-blue {
+    background-color: #008CBA;
+    /* Blue */
+}
+
+.button-red {
+    background-color: #f44336;
+    /* Red */
+}
+
+.button-gray {
+    background-color: #e7e7e7;
+    /* Gray */
+    color: black;
+}
+
+.button-black {
+    background-color: #555555;
+    /* Black */
+}
+
+
+/* https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query */
+
+* {
+    box-sizing: border-box;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+
+/* Use a media query to add a break point at 800px: */
+
+@media screen and (max-width:800px) {
+    .left,
+    .main,
+    .image,
+    .right-top,
+    .right-bottom {
+        width: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+
+.form1 {
+    border: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}

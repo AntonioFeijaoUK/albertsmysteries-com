@@ -31,22 +31,20 @@ body {
 }
 
 .footer {
-      display: flex;
-  justify-content: center;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-    
-    /*
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     color: white;
-    background: #000;
     background-color: #000;
     text-align: center;
+  
+    /*
+    background: #000;
+    background-color: #000;
     padding: 10px;
     margin-top: 7px;
-    position: absolute;
     bottom: 0;
-    width: 99%;
     height: 0px;*/
     /* Height of the footer */
 }

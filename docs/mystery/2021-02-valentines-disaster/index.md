@@ -3,4 +3,6 @@
 
 * cooming soon...
 
-![Valentines Disaster!](./images/unsplash-hearts.jpg)
+
+ <link rel="stylesheet" type="text/css" href="./assets/styles.css">
+

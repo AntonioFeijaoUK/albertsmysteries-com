@@ -12,24 +12,11 @@ body {
 }
 
 body {
-    background-image: url("../images/unsplash-space02.jpg");
+    background-image: url(../images/unsplash-hearts.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     background-attachment: fixed;
-    /* Scale the background image to be as large as possible */
-    background-size: cover;
+    background-position: center;
 }
-
-
-/*
-.body-background {
-  background-image: url('./images/unsplash-map.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-*/
 
 .timer {
     text-align: center;
@@ -82,14 +69,25 @@ body {
     color: white;
 }
 
+.container {
+    min-height: 100%;
+    position: relative;
+    /* style="overflow:auto" */
+}
+
 .header {
-    width: 100%;
-    color: white;
-    background-color: #000;
+    color: #000;
+    background: white;
+    background-color: white;
     text-align: left;
-    font-size: 10px;
     padding: 10px;
-    font-size: 20px;
+    /* margin-top: 7px; */
+}
+
+.body {
+    padding: 10px;
+    padding-bottom: 60px;
+    /* Height of the footer */
 }
 
 .footer {
@@ -100,8 +98,7 @@ body {
     color: white;
     background-color: #000;
     text-align: center;
-    font-size: 12px;
-    padding: 10px;
+    font-size: 10px;
     /*
   background: #000;
   background-color: #000;
@@ -109,18 +106,6 @@ body {
   margin-top: 7px;
   bottom: 0;
   height: 0px;*/
-    /* Height of the footer */
-}
-
-.container {
-    min-height: 100%;
-    position: relative;
-    /* style="overflow:auto" */
-}
-
-.body {
-    padding: 10px;
-    padding-bottom: 60px;
     /* Height of the footer */
 }
 
@@ -151,6 +136,17 @@ body {
     /* The width is 20%, by default */
 }
 
+
+/*
+.body-background {
+  background-image: url('./images/unsplash-map.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+*/
+
 h1 {
     /* color: #555555; */
     /* font-family: verdana; */
@@ -172,7 +168,7 @@ h2 {
 p {
     /* color: #555555; */
     /* font-family: verdana; */
-    font-size: 20px;
+    font-size: 100%;
     /* border: 2px solid powderblue; */
     /*  padding: 5px; */
     /* background-color: rgba(255, 165, 0, 0.73);  */

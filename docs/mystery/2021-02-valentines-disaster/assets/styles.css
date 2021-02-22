@@ -33,7 +33,7 @@ body {
 
 .timer {
     text-align: center;
-    font-size: 60px;
+    font-size: 200%;
     margin-top: 0px;
 }
 
@@ -43,7 +43,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;
+    font-size: 100%;
     margin: 4px 2px;
 }
 
@@ -54,7 +54,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 100%;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -87,20 +87,20 @@ body {
     color: white;
     background-color: #000;
     text-align: left;
-    font-size: 10px;
+    font-size: 100%;
     padding: 10px;
     font-size: 20px;
 }
 
 .footer {
-    position: fixed;
+    /*position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
     color: white;
     background-color: #000;
     text-align: center;
-    font-size: 12px;
+    font-size: 80%;
     padding: 10px;
     /*
   background: #000;
@@ -115,7 +115,7 @@ body {
 .container {
     min-height: 100%;
     position: relative;
-    /* style="overflow:auto" */
+    overflow:auto;
 }
 
 .body {
@@ -172,7 +172,7 @@ h2 {
 p {
     /* color: #555555; */
     /* font-family: verdana; */
-    font-size: 20px;
+    font-size: 100%;
     /* border: 2px solid powderblue; */
     /*  padding: 5px; */
     /* background-color: rgba(255, 165, 0, 0.73);  */
@@ -185,7 +185,7 @@ p {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 100%;
     margin: 4px 2px;
     cursor: pointer;
 }

@@ -13,8 +13,10 @@ function checkCODE() {
         //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
         //location.href = "./02kjdht.html";
         document.getElementById("NEXT").style.visibility = "visible";
+        return false;
     } else {
         document.getElementById("checkCODE").innerHTML = '"' + CODE + '" is NOT correct.';
+        document.getElementById("NEXT").style.visibility = "hidden";
         //alert('"' + CODE + '" is NOT correct.');
         return false;
     }

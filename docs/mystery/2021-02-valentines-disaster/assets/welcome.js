@@ -17,9 +17,10 @@ function checkCODE() {
         document.getElementById("checkCODE").innerHTML = 'Fine, let your brain wither and die...';
         //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
         //location.href = "./02kjdht.html";
-        document.getElementById("NEXT").style.visibility = "visible";
+        document.getElementById("NEXT").style.visibility = "hidden";
     } else {
         document.getElementById("checkCODE").innerHTML = '"' + CODE + '" is NOT correct.';
+        document.getElementById("NEXT").style.visibility = "hidden";
         //alert('"' + CODE + '" is NOT correct.');
         return false;
     }

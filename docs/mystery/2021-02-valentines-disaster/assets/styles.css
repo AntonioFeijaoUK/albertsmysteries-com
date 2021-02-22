@@ -104,8 +104,8 @@ body {
 
 .container {
     min-height: 100%;
-    position: relative;
-    overflow:auto;
+    /*position: relative;
+    overflow:auto;*/
 }
 
 

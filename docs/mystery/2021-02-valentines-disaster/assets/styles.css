@@ -13,28 +13,18 @@ body {
 
 body {
     background-image: url("../images/unsplash-space02.jpg");
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     /* Scale the background image to be as large as possible */
     background-size: cover;
 }
 
 
-/*
-.body-background {
-  background-image: url('./images/unsplash-map.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-*/
-
 .timer {
     text-align: center;
     font-size: 200%;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 .form1 {
@@ -93,7 +83,7 @@ body {
 }
 
 .footer {
-    /*position: fixed; */
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -118,11 +108,6 @@ body {
     overflow:auto;
 }
 
-.body {
-    padding: 10px;
-    padding-bottom: 60px;
-    /* Height of the footer */
-}
 
 .left {
     /* background-color: #2196F3; */

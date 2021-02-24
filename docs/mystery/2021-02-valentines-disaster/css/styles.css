@@ -74,8 +74,8 @@ body {
     width: 100%;
     height: 10%; 
     float: left;
-    color: white;
-    background-color: #000;
+    color: #fff;
+    background-color: #444;
     text-align: left;
     font-size: 100%;
     padding: 10px;
@@ -90,7 +90,7 @@ body {
     float: left;
     /* bottom: 0; */
     color: white;
-    background-color: #000;
+    background-color: #444;
     text-align: center;
     font-size: 80%;
     padding: 10px;
@@ -106,27 +106,24 @@ body {
     width: 50%;
     height: 100%;
     float: left;
-    /* background-color: #2196F3; */
+    background-color: #DDD;
     padding: 5px;
-    /* The width is 20%, by default */
 }
 
 .right-top {
-    /* background-color: #f1f1f1; */
+    background-color: #AAA;
     padding: 5px;
     width: 50%;
     height: 50%;
     float: left;
-    /* The width is 60%, by default */
 }
 
 .right-bottom {
-    /* background-color: #4CAF50; */
+    background-color: #777;
     padding: 5px;
     width: 50%;
     height: 50%;
     float: left;
-    /* The width is 20%, by default */
 }
 
 h1 {
@@ -198,7 +195,7 @@ p {
 /* https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query */
 
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .image {

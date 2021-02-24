@@ -194,8 +194,10 @@ p {
 
 /* https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query */
 
+
 * {
     box-sizing: content-box;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
 }
 
 .image {

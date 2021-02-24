@@ -1,6 +1,7 @@
 function clickNEXT() {
     // encode URL
-    encodedURL = btoa("index.html");
+    // encodedURL = btoa("index.html");
+    encodedURL = "MDA1LW1pc3Npb24tYmVnaW5zLmh0bWw="
     console.log("encodedURL : " + encodedURL);
     
     // decode URL
@@ -8,7 +9,7 @@ function clickNEXT() {
     console.log("decodedURL : " + encodedURL)
     
     // location.href = "index.html";
-    // location.href = "index.html";
+    location.href = decodedURL;
     
     alert("You clicked NEXT and encodedURL : " + encodedURL + " and decodedURL " + decodedURL);
 }

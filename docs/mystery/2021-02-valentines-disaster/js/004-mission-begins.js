@@ -17,7 +17,7 @@ async function digestMessage(message) {
 // echo -n 'yes' | shasum -a 256
 
 
-function checkCODE() {
+async function checkCODE() {
 
     let CODE = document.getElementById("enterCODE").value;
     let code = CODE.toLocaleLowerCase();

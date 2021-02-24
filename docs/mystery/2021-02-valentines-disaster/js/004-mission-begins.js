@@ -1,11 +1,11 @@
 function clickNEXT() {
     // encode URL
     encodedURL = btoa("index.html");
-    console.log=("encodedURL : " + encodedURL);
+    console.log("encodedURL : " + encodedURL);
     
     // decode URL
     decodedURL = atob(encodedURL);
-    console.log=("decodedURL : " + encodedURL)
+    console.log("decodedURL : " + encodedURL)
     
     // location.href = "index.html";
     // location.href = "index.html";

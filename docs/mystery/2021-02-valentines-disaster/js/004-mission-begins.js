@@ -1,6 +1,16 @@
 function clickNEXT() {
+    // encode URL
+    encodedURL = btoa("index.html");
+    console.log=("encodedURL : " + encodedURL);
+    
+    // decode URL
+    decodedURL = atob(encodedURL);
+    console.log=("decodedURL : " + encodedURL)
+    
     // location.href = "index.html";
-    alert("You clicked NEXT");
+    // location.href = "index.html";
+    
+    alert("You clicked NEXT and encodedURL : " + encodedURL + " and decodedURL " + decodedURL);
 }
 
 

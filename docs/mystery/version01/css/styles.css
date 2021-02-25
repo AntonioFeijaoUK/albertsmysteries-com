@@ -1,0 +1,228 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* font-family: Verdana;  */
+    line-height: 1.5;
+    color: rgb(88, 182, 79);
+    background-color: rgb(214, 22, 22);
+    font: 100%/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
+    /* Background Image */
+    /* background-image: url("images/unsplash-space02.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+
+.container {
+    min-height: 100%;
+    /* position: relative; */
+    overflow: auto;
+}
+
+.timer {
+    text-align: center;
+    font-size: 300%;
+    margin-top: 10px;
+    color: yellow;
+}
+
+.form1 {
+    border: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 150%;
+    margin: 4px 2px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-green {
+    background: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button-green:hover {
+    background: #4CAF50;
+    color: white;
+}
+
+.button-blue {
+    background: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.button-blue:hover {
+    background: #008CBA;
+    color: white;
+}
+
+.left {
+    background-color: #58570a;
+    padding: 5px;
+    float: left;
+    height: 100%;
+    width: 50%;
+    overflow: auto;
+    /* The width is 20%, by default */
+}
+
+.right-top {
+    background-color: #bd21b0;
+    padding: 5px;
+    float: left;
+    height: 50%;
+    width: 50%;
+    /* The width is 60%, by default */
+}
+
+.right-bottom {
+    background-color: #746c6f;
+    padding: 5px;
+    float: left;
+    height: 50%;
+    width: 50%;
+    /* The width is 20%, by default */
+}
+
+h1 {
+    /* color: #555555; */
+    /* font-family: verdana; */
+    font-size: 200%;
+    /* border: 2px solid powderblue;
+  padding: 30px;
+  background-color: rgba(255, 165, 0, 0.73); */
+}
+
+h2 {
+    /*  color: #555555; */
+    /* font-family: verdana; */
+    font-size: 150%;
+    /* border: 2px solid powderblue;
+  padding: 30px;
+  background-color: rgba(255, 165, 0, 0.73); */
+}
+
+p {
+    /* color: #555555; */
+    /* font-family: verdana; */
+    font-size: 100%;
+    /* border: 2px solid powderblue; */
+    /*padding: 10px; */
+    /* background-color: rgba(255, 165, 0, 0.73); */
+}
+
+.button-default {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-green {
+    background-color: #4CAF50;
+    /* Green */
+}
+
+.button-blue {
+    background-color: #008CBA;
+    /* Blue */
+}
+
+.button-red {
+    background-color: #f44336;
+    /* Red */
+}
+
+.button-gray {
+    color: black;
+    background-color: #e7e7e7;
+    /* Gray */
+}
+
+.button-black {
+    background-color: #555555;
+    /* Black */
+}
+
+
+/* https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query */
+
+
+/*
+* {
+    box-sizing: content-box;
+    width: 100%;
+}
+*/
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.header {
+    width: 100%;
+    color: gray;
+    background-color: lightseagreen;
+    text-align: left;
+    font-size: 150%;
+    padding: 5px;
+}
+
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: rgb(28, 64, 163);
+    text-align: center;
+    font-size: 80%;
+    padding: 5px;
+}
+
+* {
+    box-sizing: border-box;
+    /*width: 100%; */
+    border: solid #4bd630 1px;
+    padding: 1px;
+}
+
+
+/* Use a media query to add a break point at 800px: */
+
+@media screen and (max-width:600px) {
+    .left,
+    .main,
+    .image,
+    .right-top,
+    .right-bottom {
+        width: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}

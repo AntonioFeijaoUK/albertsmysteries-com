@@ -1,5 +1,5 @@
 function clickNEXT() {
-    location.href = "./pizza-menu.html";
+    location.href = "welcome.html";
 }
 
 
@@ -8,16 +8,12 @@ function checkCODE() {
     let CODE = document.getElementById("enterCODE").value
     let code = CODE.toLocaleLowerCase()
 
-    if (code == "yes") {
-        document.getElementById("checkCODE").innerHTML = 'Yes - Comming soon...';
+    if (code == "albert004") {
+        document.getElementById("checkCODE").innerHTML = ' "' + CODE + '" is CORRECT!!';
         //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
         //location.href = "./02kjdht.html";
         document.getElementById("NEXT").style.visibility = "visible";
-    } else if (code == "no") {
-        document.getElementById("checkCODE").innerHTML = 'No - Comming soon...';
-        //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
-        //location.href = "./02kjdht.html";
-        document.getElementById("NEXT").style.visibility = "hidden";
+        return false;
     } else {
         document.getElementById("checkCODE").innerHTML = '"' + CODE + '" is NOT correct.';
         document.getElementById("NEXT").style.visibility = "hidden";

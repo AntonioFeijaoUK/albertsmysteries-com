@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <title>Alberts Mysteries - Valentines Disaster!</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <header class="header">AlbertsMysteries.com</header>
+
+
+    <div class="left">
+        <img class="image" src="images/unsplash-lamp.jpg">
+    </div>
+
+
+    <div class="right">
+        <h2>004 Security queue...</h2>
+
+        <p>The destination for the microchips is Budapest and they need to be delivered by the 14th of February.<br>
+            <br> Miles' Valentine's trip is the perfect cover.<br>
+            <br> Miles' handler, Harold, has told Miles to pick up the microchips after security at the airport, in order to not arouse suspicion.<br>
+            <br> Miles will be given more information, but he needs to go to the correct security queue to receive it.<br>
+            <br> He has been given the following:
+        </p>
+
+
+
+        <pre style="background-color:rgba(0, 0, 0, 0.8); text-align:left; font-size: 20px;">
+            2 5
+            7 4
+             
+            3 7
+            8 6
+             
+            2 ?
+            9 8</pre>
+
+        <p>Which security queue number will Miles and Veronica need?</p>
+
+
+        <i>click if you need a clue</i>
+        <br>
+        <button class="click-button" onmousedown="showClue()" onmouseup="hideClue()"><div id="clueDIV"></div></button>
+        <script>
+            function showClue() {
+                var x = document.getElementById("clueDIV");
+                x.innerHTML = "Vertical";
+            }
+
+            function hideClue() {
+                var x = document.getElementById("clueDIV");
+                x.innerHTML = "";
+            }
+        </script>
+        <br>
+        <!-- Display the countdown timer in an element -->
+        <br>
+        <span class="timer timer-small" id="TIMER"></span>
+        <br>
+
+
+
+        <form class="form1" onSubmit="checkCODE(); return false; ">
+            <input class="form1" type="text" id="enterCODE" required autofocus>
+        </form>
+
+        <br>
+        <span id="checkCODE"></span>
+        <br>
+        <span><button id="NEXT" class="button button-green" type="button" style="visibility:hidden" ; onclick="clickNEXT()">NEXT</button></span>
+        <br>
+        <span><button class="button button-blue" type="button" value="checkMyCode" onclick="checkCODE()">CHECK MY CODE</button></span>
+        <br>
+
+
+    </div>
+
+
+    <footer class="footer">&copy 2021, AlbertsMysteries.com, or its affiliates. All rights reserved.</footer>
+
+    <script src="js/count-down-120s.js"></script>
+    <script src="js/004-security-queue.js"></script>
+</body>
+
+</html>

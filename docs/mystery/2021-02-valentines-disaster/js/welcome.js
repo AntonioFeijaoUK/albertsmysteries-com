@@ -1,5 +1,5 @@
 function clickNEXT() {
-    location.href = "./pizza-menu.html";
+    location.href = "pizza-menu.html";
 }
 
 

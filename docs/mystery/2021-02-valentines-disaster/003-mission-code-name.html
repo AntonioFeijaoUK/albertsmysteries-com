@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <title>Alberts Mysteries - Valentines Disaster!</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <header class="header">AlbertsMysteries.com</header>
+
+
+    <div class="left">
+        <img class="image" src="images/unsplash-lamp.jpg">
+    </div>
+
+
+    <div class="right">
+        <h2>003 Mission code name...</h2>
+
+        <p>So, unbeknownst to Veronica, Miles is a spy!<br>
+            <br>He is currently working on a case involving the illegal sale of microchips used for precision-guided munition to warlords all over the world.<br>
+            <br>His team has managed to track the middleman but has not managed to track the organisation behind it.<br>
+            <br>Miles has been ordered to deliver a bag of traceable microchips to a criminal gang so MI6 can see where they go, and how.<br>
+            <br>The mission is named after a medication and a dye!<br>
+            <br>What is the mission codename?
+        </p>
+
+
+
+        <i>click if you need a clue</i>
+        <br>
+        <button class="click-button" onmousedown="showClue()" onmouseup="hideClue()"><div id="clueDIV"></div></button>
+        <script>
+            function showClue() {
+                var x = document.getElementById("clueDIV");
+                x.innerHTML = "Methemeglobinemia/X-ray localization/CT";
+            }
+
+            function hideClue() {
+                var x = document.getElementById("clueDIV");
+                x.innerHTML = "";
+            }
+        </script>
+        <br>
+        <!-- Display the countdown timer in an element -->
+        <br>
+        <span class="timer timer-small" id="TIMER"></span>
+        <br>
+
+
+
+        <form class="form1" onSubmit="checkCODE(); return false; ">
+            <input class="form1" type="text" id="enterCODE" required autofocus>
+        </form>
+
+        <br>
+        <span id="checkCODE"></span>
+        <br>
+        <span><button id="NEXT" class="button button-green" type="button" style="visibility:hidden" ; onclick="clickNEXT()">NEXT</button></span>
+        <br>
+        <span><button class="button button-blue" type="button" value="checkMyCode" onclick="checkCODE()">CHECK MY CODE</button></span>
+        <br>
+
+
+    </div>
+
+
+    <footer class="footer">&copy 2021, AlbertsMysteries.com, or its affiliates. All rights reserved.</footer>
+
+    <script src="js/count-down-120s.js"></script>
+    <script src="js/003-mission-code-name.js"></script>
+</body>
+
+</html>

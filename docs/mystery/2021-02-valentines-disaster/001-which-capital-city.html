@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <title>Alberts Mysteries - Valentines Disaster!</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <header class="header">AlbertsMysteries.com</header>
+
+
+    <div class="left">
+        <img class="image" src="images/unsplash-lamp.jpg">
+    </div>
+
+
+    <div class="right">
+        <h2>001 Capital city...</h2>
+
+        <p>Miles has told Veronica to book a few days off work around Feb 14th as they are going somewhere...<br>
+            <br>But he is being very secretive about it and does not want to tell her their destination.<br>
+            <br>Veronica is eager to know which climate to pack for, but Miles will only agree to tell her a riddle:
+        </p>
+
+        <p>Below are the alternate letters of three countries and a capital city.<br>
+            <br>Which is the capital city?
+        </p>
+        <i>(extra points if you get the countries as well!)</i>
+
+
+        <pre style="background-color:rgba(0, 0, 0, 0.8); text-align:left; font-size: 20px;">
+                1. *N*L*N*
+                2. *U*A*E*T
+                3. *T*L*
+                4. *N*T*D* *T*T*S</pre>
+
+
+        <code>click if you need a clue</code>
+        <br>
+        <button class="click-button" onmousedown="showClue()" onmouseup="hideClue()"><div id="clueDIV"></div></button>
+        <script>
+            function showClue() {
+                var x = document.getElementById("clueDIV");
+                x.innerHTML = "Eastern Europe";
+            }
+
+            function hideClue() {
+                var x = document.getElementById("clueDIV");
+                x.innerHTML = "";
+            }
+        </script>
+        <br>
+        <!-- Display the countdown timer in an element -->
+        <br>
+        <span class="timer timer-small" id="TIMER"></span>
+        <br>
+
+
+
+        <form class="form1" onSubmit="checkCODE(); return false; ">
+            <input class="form1" type="text" id="enterCODE" required autofocus>
+        </form>
+
+        <br>
+        <span id="checkCODE"></span>
+        <br>
+        <span><button id="NEXT" class="button button-green" type="button" style="visibility:hidden" ; onclick="clickNEXT()">NEXT</button></span>
+        <br>
+        <span><button class="button button-blue" type="button" value="checkMyCode" onclick="checkCODE()">CHECK MY CODE</button></span>
+        <br>
+
+
+    </div>
+
+
+    <footer class="footer">&copy 2021, AlbertsMysteries.com, or its affiliates. All rights reserved.</footer>
+
+    <script src="js/count-down-120s.js"></script>
+    <script src="js/001-which-capital-city.js"></script>
+</body>
+
+</html>

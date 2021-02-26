@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-GB">
 
 <head>
-    <title>Alberts Mysteries - Valentines Disaster!!</title>
+    <title>Alberts Mysteries - Valentines Disaster!</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,22 +16,19 @@
     <header class="header">AlbertsMysteries.com</header>
 
 
-    <div class="left"><img class="image" src="images/unsplash-lamp.jpg"></div>
+    <div class="left">
+        <img class="image" src="images/unsplash-hearts.jpg">
+    </div>
 
 
     <div class="right">
+        <h2>004 Mission Begins...</h2>
 
-        <h2>Welcome to the Valentines Disaster Mystery!</h2>
+        <!-- Display the countdown timer in an element -->
+        <p class="timer" id="TIMER"></p>
 
-        <p>It's Valentine's Day soon...<br>
-            <br>Veronica is hoping for a romantic gesture from her boyfriend, Miles, as he has been very busy with his work lately and they have hardly spent any time together!<br>
-            <br>Luckily for Miles, he has planned a romantic holiday away to an unknown destination.<br>
-            <br>But not everything is as it seems....<br>
-            <br>Are you ready to play?
-        </p>
-
-
-        <p style="text-align: center;">YES or NO</p>
+        <p style="text-align:center;">Are you ready to play a game?!</p>
+        <p style="text-align:center;"><code>YES</code> or <code>NO</code></p>
 
         <form class="form1" onSubmit="checkCODE(); return false; ">
             <input class="form1" type="text" id="enterCODE" required autofocus>
@@ -46,14 +43,16 @@
         <br>
 
 
-
     </div>
+
 
 
 
     <footer class="footer">&copy 2021, AlbertsMysteries.com, or its affiliates. All rights reserved.</footer>
 
-    <script src="js/welcome.js"></script>
+    <script src="js/count-down-timer.js"></script>
+    <script src="js/000-mission-begins.js"></script>
+
 </body>
 
 </html>

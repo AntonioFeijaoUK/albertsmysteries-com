@@ -7,14 +7,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="./assets/styles.css">
-
-    <script src="./assets/count-down-timer.js"></script>
-    <script src="./assets/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 
     <style>
         body {
-            background-image: url('./images/unsplash-hearts.jpg');
+            background-image: url('images/unsplash-hearts.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: center;
@@ -25,31 +22,38 @@
 </head>
 
 <body>
-    <div class="header">
-        <p>Albertsmysteries.com</p>
-    </div>
+
+    <header class="header">AlbertsMysteries.com</header>
 
 
     <div class="container">
 
 
         <center>
-            <h2>Valentines Disaster!</h2>
-            <h3>coming soon...</h3>
+            <span style="background-color: rgba(124, 23, 15, 0.5); font-size: 300%;">Valentines Disaster!</span>
+            <h2 style="background-color: rgba(124, 23, 15, 0.5);">coming soon...</h2>
 
 
             <!-- Display the countdown timer in an element -->
             <p class="timer" id="TIMER"></p>
 
-            <p>...egats txen rof woleb 400treblA edoc eht retnE ?emag yretsyM a yalp ot ydaer uoy erA</p>
+            <br>
+            <p style="text-align: center;">...egats txen rof woleb 400treblA edoc eht retnE ?emag yretsyM a yalp ot ydaer uoy erA</p>
+            <br>
+
 
             <form class="form1" onSubmit="checkCODE(); return false; ">
                 <input class="form1" type="text" id="enterCODE" required autofocus>
             </form>
 
-            <p id="checkCODE"></p>
-            <p><button id="NEXT" class="button button-green" type="button" style="visibility:hidden" ; onclick="clickNEXT()">NEXT</button></p>
-            <p><button class="button button-blue" type="button" value="checkMyCode" onclick="checkCODE()">CHECK MY CODE</button></p>
+            <br>
+            <span id="checkCODE"></span>
+            <br>
+            <span><button id="NEXT" class="button button-green" type="button" style="visibility:hidden" ; onclick="clickNEXT()">NEXT</button></span>
+            <br>
+            <span><button class="button button-blue" type="button" value="checkMyCode" onclick="checkCODE()">CHECK MY CODE</button></span>
+            <br>
+
 
         </center>
 
@@ -58,11 +62,11 @@
     </div>
 
 
-    <div class="footer">
-        <p>© 2021, Albertsmysteries.com, or its affiliates. All rights reserved.</p>
-    </div>
 
+    <footer class="footer">&copy 2021, AlbertsMysteries.com, or its affiliates. All rights reserved.</footer>
 
+    <script src="js/count-down-timer.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

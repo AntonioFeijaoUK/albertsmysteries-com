@@ -1,7 +1,7 @@
 function clickNEXT() {
     // encode URL
     // encodedURL = btoa("index.html");
-    encodedURL = "MDA1LWxvY2tlci1udW1iZXIuaHRtbA==";
+    encodedURL = "MDE2LXdhdGVyLWdvZ2dsZXMuaHRtbA==";
     console.log("encodedURL : " + encodedURL);
 
     // decode URL
@@ -38,7 +38,7 @@ async function checkCODE() {
 
 
 
-    if (digestHex == "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d") {
+    if (digestHex == "d01e432a6751567a949438ad357cde650acca53872e0beeb5c0f4818191d306a" || digestHex == "a00b043a0efe7284c49f9589a96a448d445f4508656a095141fd71fefae975cb") {
         document.getElementById("checkCODE").innerHTML = 'You got it right!';
         //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
         //location.href = "./02kjdht.html";

@@ -1,7 +1,7 @@
 function clickNEXT() {
     // encode URL
     // encodedURL = btoa("index.html");
-    encodedURL = "MDA1LWxvY2tlci1udW1iZXIuaHRtbA==";
+    encodedURL = "MDA3LXdoaWNoLWdhdGUuaHRtbA==";
     console.log("encodedURL : " + encodedURL);
 
     // decode URL
@@ -30,7 +30,16 @@ async function digestMessage(message) {
 
 async function checkCODE() {
 
-    let CODE = document.getElementById("enterCODE").value;
+    // let CODE = document.getElementById("enterCODE").value;
+
+    let Number1 = document.getElementById("lockerNum1").value;
+    let Number2 = document.getElementById("lockerNum2").value;
+    let Number3 = document.getElementById("lockerNum3").value;
+    let Number4 = document.getElementById("lockerNum4").value;
+
+    CODE = (Number1 + Number2 + Number3 + Number4);
+    console.log("CODE : " + CODE);
+
     let code = CODE.toLocaleLowerCase();
 
     const digestHex = await digestMessage(code);
@@ -38,7 +47,7 @@ async function checkCODE() {
 
 
 
-    if (digestHex == "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d") {
+    if (digestHex == "aea27ad297988629c3fb643b30a78a87de4cc16ec970e55d6d57924fabd42a93") {
         document.getElementById("checkCODE").innerHTML = 'You got it right!';
         //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
         //location.href = "./02kjdht.html";

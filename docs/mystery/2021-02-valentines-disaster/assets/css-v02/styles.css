@@ -1,0 +1,268 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    line-height: 1.5;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    /*font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;  */
+    /* Background Image */
+    background-image: url("../images/unsplash-space02.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+
+.logo {
+    max-width: 50px;
+    height: auto;
+    display: inline;
+    border-radius: 9%;
+    padding: 1px;
+    border: 4px solid #ffffff;
+}
+
+.timer {
+    text-align: center;
+    font-size: 150%;
+    /* margin-top: 10px; */
+    color: yellow;
+    background-color: rgba(1, 12, 20, 0.6);
+}
+
+.timer-small {
+    font-size: 100%;
+}
+
+.form1 {
+    border: 2px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    margin: 2px 2px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-green {
+    background: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button-green:hover {
+    background: #4CAF50;
+    color: white;
+}
+
+.button-blue {
+    background: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.button-blue:hover {
+    background: #008CBA;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    float: left;
+    color: rgb(255, 255, 255);
+    background-color: rgba(44, 46, 46, 0.2);
+    text-align: center;
+    /* padding: 5px; */
+}
+
+.header {
+    /* position: fixed; */
+    /* top: 10px; */
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    background-color: rgba(1, 12, 20, 0.6);
+    /* padding: 10px; */
+    margin-bottom: 10px;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    color: rgb(255, 255, 255);
+    background-color: rgba(44, 46, 46, 0.2);
+    text-align: center;
+    /* padding: 5px; */
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    float: left;
+    color: rgb(255, 255, 255);
+    background-color: rgba(44, 46, 46, 0.2);
+    text-align: center;
+    /* padding: 5px; */
+}
+
+.right-top {
+    background-color: rgba(233, 255, 144, 0.2);
+    width: 50%;
+    height: 50%;
+    float: left;
+    /* padding: 5px; */
+}
+
+.right-bottom {
+    background-color: rgba(170, 255, 177, 0.2);
+    width: 50%;
+    height: 50%;
+    float: left;
+    text-align: center;
+    /* padding: 5px; */
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    left: 0;
+    float: left;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 11px;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 125%;
+}
+
+p {
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(1, 12, 20, 0.6);
+    text-align: left;
+}
+
+.click-button {
+    font-size: 12px;
+    border-radius: 90%;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(150, 12, 12, 0.8);
+}
+
+.click-button:hover {
+    font-size: 12px;
+    border-radius: 5%;
+    width: 300px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.click-button:active {
+    font-size: 12px;
+    border-radius: 5%;
+    width: 300px;
+    height: 30px;
+}
+
+.button-default {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-green {
+    background-color: #4CAF50;
+    /* Green */
+}
+
+.button-blue {
+    background-color: #008CBA;
+    /* Blue */
+}
+
+.button-red {
+    background-color: #f44336;
+    /* Red */
+}
+
+.button-gray {
+    background-color: #e7e7e7;
+    /* Gray */
+    color: black;
+}
+
+.button-black {
+    background-color: #555555;
+    /* Black */
+}
+
+
+/* https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query */
+
+
+/*
+* {
+    box-sizing: content-box;
+     https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing 
+} */
+
+.image {
+    max-width: 95%;
+    /* height: 95%; */
+    border-radius: 4%;
+    /* padding: 1px; */
+    /* border: 1px solid rgba(170, 255, 177, 0.2); */
+}
+
+
+/* Use a media query to add a break point at 800px: */
+
+@media screen and (max-width:800px) {
+    .left,
+    .right,
+    .right-top,
+    .right-bottom {
+        width: 100%;
+        height: auto;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}

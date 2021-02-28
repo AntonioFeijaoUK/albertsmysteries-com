@@ -1,22 +1,190 @@
-html,
-body {
-    position: relative;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: Verdana;
-    line-height: 1.5;
+* {
     box-sizing: border-box;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    /*font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;  */
+}
+
+html {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    margin: 3px;
+}
+
+body {
     /* Background Image */
-    background-image: url("../images/unsplash-space02.jpg");
+    background-image: url("../images/michael-fenton-0ZQ8vojHNuc-unsplash.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     /* Scale the background image to be as large as possible */
     background-size: cover;
+}
+
+
+/* Header/Blog Title */
+
+.header {
+    padding: 1px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* border-radius: 3%; */
+}
+
+.header h1 {
+    font-size: 30px;
+    color: rgb(211, 211, 211);
+}
+
+
+/* Style the top navigation bar */
+
+.topnav {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* border-radius: 3%; */
+}
+
+
+/* Style the topnav links */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 2px 2px;
+    text-decoration: none;
+}
+
+
+/* Change color on hover */
+
+.topnav a:hover {
+    background-color: #f3f3f3;
+    color: black;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+
+
+/* Left column */
+
+.leftcolumn {
+    float: left;
+    width: 45%;
+}
+
+
+/* Right column */
+
+.rightcolumn {
+    float: left;
+    width: 55%;
+    /* background-color: #f1f1f1; */
+    padding-left: 10px;
+}
+
+
+/* Fake image */
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* Real image */
+
+.image {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 1px;
+}
+
+.curved {
+    /* max-width: 100%; */
+    /* height: 95%; */
+    border-radius: 3%;
+    /* padding: 1px; */
+    /* border: 1px solid rgba(170, 255, 177, 0.2); */
+}
+
+
+/* Add a card effect for articles */
+
+.card {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    /* background-color: rgba(1, 12, 20, 0.3); */
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Footer */
+
+.footer {
+    padding: 1px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 0px;
+    /* addition to make it stick to the bottom */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* height: auto; */
+    left: 0;
+    float: left;
+    text-align: center;
+    font-size: 90%;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 800px) {
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+/*  ------------------------------------- all above is inspired from w3school css divs ---------- */
+
+.center {
+    text-align: center;
 }
 
 .logo {
@@ -30,14 +198,15 @@ body {
 
 .timer {
     text-align: center;
-    font-size: 150%;
+    font-size: 30px;
+    font-weight: bolder;
     /* margin-top: 10px; */
     color: yellow;
     background-color: rgba(1, 12, 20, 0.6);
 }
 
 .timer-small {
-    font-size: 100%;
+    font-size: 26px;
 }
 
 .form1 {
@@ -53,14 +222,15 @@ body {
 .button {
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 5px 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 100%;
-    margin: 4px 2px;
+    font-size: 12px;
+    margin: 1px 1px;
     transition-duration: 0.4s;
     cursor: pointer;
+    border-radius: 10%;
 }
 
 .button-green {
@@ -93,20 +263,6 @@ body {
     background-color: rgba(44, 46, 46, 0.2);
     text-align: center;
     /* padding: 5px; */
-}
-
-.header {
-    /* position: fixed; */
-    /* top: 10px; */
-    font-size: 20px;
-    width: 100%;
-    height: auto;
-    float: left;
-    text-align: left;
-    color: rgb(255, 255, 255);
-    background-color: rgba(1, 12, 20, 0.6);
-    /* padding: 10px; */
-    margin-bottom: 10px;
 }
 
 .left {
@@ -146,36 +302,20 @@ body {
     /* padding: 5px; */
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-    left: 0;
-    float: left;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    font-size: 11px;
-}
-
 h1 {
-    font-size: 150%;
+    font-size: 40px;
 }
 
 h2 {
-    font-size: 125%;
+    font-size: 30px;
 }
 
 p {
-    font-size: 100%;
-    color: rgb(255, 255, 255);
-    background-color: rgba(1, 12, 20, 0.6);
-    text-align: left;
+    font-size: 18px;
 }
 
 .click-button {
-    font-size: 12px;
+    font-size: 100%;
     border-radius: 90%;
     width: 30px;
     height: 30px;
@@ -183,15 +323,15 @@ p {
 }
 
 .click-button:hover {
-    font-size: 12px;
+    font-size: 100%;
     border-radius: 5%;
-    width: 300px;
+    width: 100%;
     height: 30px;
     background-color: rgba(255, 255, 255, 0.8);
 }
 
 .click-button:active {
-    font-size: 12px;
+    font-size: 100%;
     border-radius: 5%;
     width: 300px;
     height: 30px;
@@ -236,33 +376,43 @@ p {
 }
 
 
-/* https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query */
+/* source https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_tooltip */
 
-
-/*
-* {
-    box-sizing: content-box;
-     https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing 
-} */
-
-.image {
-    max-width: 95%;
-    /* height: 95%; */
-    border-radius: 4%;
-    /* padding: 1px; */
-    /* border: 1px solid rgba(170, 255, 177, 0.2); */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 2px solid rgb(16, 177, 10);
 }
 
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 10%;
+    margin-left: -125px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
 
-/* Use a media query to add a break point at 800px: */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
 
-@media screen and (max-width:800px) {
-    .left,
-    .right,
-    .right-top,
-    .right-bottom {
-        width: 100%;
-        height: auto;
-        /* The width is 100%, when the viewport is 800px or smaller */
-    }
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }

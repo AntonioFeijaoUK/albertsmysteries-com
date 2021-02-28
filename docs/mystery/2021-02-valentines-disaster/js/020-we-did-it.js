@@ -1,7 +1,7 @@
 function clickNEXT() {
     // encode URL
     // encodedURL = btoa("index.html");
-    encodedURL = "MDA1LWxvY2tlci1udW1iZXIuaHRtbA==";
+    encodedURL = "ODg4LXRoYW5rLXlvdS5odG1s";
     console.log("encodedURL : " + encodedURL);
 
     // decode URL
@@ -38,8 +38,8 @@ async function checkCODE() {
 
 
 
-    if (digestHex == "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d") {
-        document.getElementById("checkCODE").innerHTML = 'You got it right!';
+    if (digestHex == "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b" || digestHex == "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35") {
+        document.getElementById("checkCODE").innerHTML = "She probably will leave him...<br> But at least she helped save the world!<br>Happy Belated Valentine's Day!<br>";
         //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
         //location.href = "./02kjdht.html";
         document.getElementById("NEXT").style.visibility = "visible";

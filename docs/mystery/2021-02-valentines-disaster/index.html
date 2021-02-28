@@ -23,22 +23,35 @@
 
 <body>
 
-    <header class="header">AlbertsMysteries.com</header>
+    <div class="header">
+        <h1>AlbertsMysteries.com</h1>
+    </div>
 
 
-    <div class="container">
+    <div class="topnav">
+        <a href="/">Home</a>
+        <a href="/contact">Contact</a>
+        <a href="/about" style="float:right">About</a>
+    </div>
 
+
+
+    <div class="row">
 
         <center>
-            <span style="background-color: rgba(124, 23, 15, 0.5); font-size: 300%;">Valentines Disaster!</span>
-            <h2 style="background-color: rgba(124, 23, 15, 0.5);">coming soon...</h2>
+            <div class="card">
+                <h2>Valentines Disaster!</h2>
+                <p>coming soon...</p>
+            </div>
 
 
             <!-- Display the countdown timer in an element -->
-            <p class="timer" id="TIMER"></p>
+            <p class="timer" id="TIMER" style="font-size: 30px;"></p>
 
             <br>
-            <p style="text-align: center;">...egats txen rof woleb 400treblA edoc eht retnE ?emag yretsyM a yalp ot ydaer uoy erA</p>
+
+            <p style="text-align: center; background-color: rgba(0, 0, 0, 0.5);">...egats txen rof woleb 400treblA edoc eht retnE ?emag yretsyM a yalp ot ydaer uoy erA</p>
+
             <br>
 
 
@@ -47,23 +60,24 @@
             </form>
 
             <br>
-            <span id="checkCODE"></span>
-            <br>
-            <span><button id="NEXT" class="button button-green" type="button" style="visibility:hidden" ; onclick="clickNEXT()">NEXT</button></span>
-            <br>
-            <span><button class="button button-blue" type="button" value="checkMyCode" onclick="checkCODE()">CHECK MY CODE</button></span>
+            <p><span id="checkCODE"></span>
+                <span><button class="button button-blue" type="button" value="checkMyCode" onclick="checkCODE()">CHECK MY CODE</button></span>
+                <span><button id="NEXT" class="button button-green" type="button" style="visibility:hidden" ; onclick="clickNEXT()">NEXT</button></span>
+            </p>
             <br>
 
 
         </center>
 
 
-
     </div>
 
 
 
-    <footer class="footer">&copy 2021, AlbertsMysteries.com, or its affiliates. All rights reserved.</footer>
+    <div class="footer">
+        <footer>&copy 2021, AlbertsMysteries.com, or its affiliates. All rights reserved.</footer>
+    </div>
+
 
     <script src="js/count-down-timer.js"></script>
     <script src="js/index.js"></script>

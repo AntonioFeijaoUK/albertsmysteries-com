@@ -19,6 +19,19 @@
         }
     </style>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WSPWTG9RX7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-WSPWTG9RX7');
+    </script>
+
 </head>
 
 <body>
@@ -33,7 +46,7 @@
         <a href="/contact">Contact</a>
         <a href="/about" style="float:right">About</a>
     </div>
-
+    <br>
 
 
     <div class="row">
@@ -59,12 +72,9 @@
                 <input class="form1" type="text" id="enterCODE" required autofocus>
             </form>
 
-            <br>
-            <p><span id="checkCODE"></span>
-                <span><button class="button button-blue" type="button" value="checkMyCode" onclick="checkCODE()">CHECK MY CODE</button></span>
-                <span><button id="NEXT" class="button button-green" type="button" style="visibility:hidden" ; onclick="clickNEXT()">NEXT</button></span>
-            </p>
-            <br>
+            <p><button id="NEXT" class="button button-green" type="button" style="visibility:hidden" ; onclick="clickNEXT()">NEXT</button></p>
+            <p id="checkCODE"></p>
+            <p><button class="button button-blue" type="button" value="checkMyCode" onclick="checkCODE()">CHECK MY CODE</button></p>
 
 
         </center>

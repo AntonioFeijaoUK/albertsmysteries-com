@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Alberts Mysteries - Valentines Disaster!!</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="./assets/styles.css">
+
+    <script src="./assets/count-down-timer.js"></script>
+    <script src="./assets/index.js"></script>
+
+    <style>
+        body {
+            background-image: url('./images/unsplash-hearts.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <p>Albertsmysteries.com</p>
+    </div>
+
+    <div class="container">
+
+        <!-- <div class="left">
+                <img class="image" src="./images/unsplash-hearts.jpg">
+            </div> -->
+
+
+        <div class="right-top">
+            <center>
+                <h2>Valentines Disaster!<br>
+                    <br> cooming soon...
+                </h2>
+
+                <!-- Display the countdown timer in an element -->
+                <p class="timer" id="TIMER"></p>
+            </center>
+        </div>
+
+
+
+        <div class="right-bottom">
+            <center>
+                <p>...egats txen rof woleb 400treblA edoc eht retnE ?emag yretsyM a yalp ot ydaer uoy erA
+                </p>
+
+                <form class="form1" onSubmit="checkCODE(); return false; ">
+                    <input class="form1" type="text" id="enterCODE" required autofocus>
+                </form>
+
+                <p id="checkCODE"></p>
+                <p><button id="NEXT" class="button button-green" type="button" style="visibility:hidden" ; onclick="clickNEXT()">NEXT</button></p>
+                <p><button class="button button-blue" type="button" value="checkMyCode" onclick="checkCODE()">CHECK MY CODE</button></p>
+
+
+            </center>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <p>© 2021, Albertsmysteries.com, or its affiliates. All rights reserved.</p>
+    </div>
+
+
+</body>
+
+</html>

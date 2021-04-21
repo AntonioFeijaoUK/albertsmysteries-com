@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <title>Alberts Mysteries - Valentines Disaster!</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WSPWTG9RX7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-WSPWTG9RX7');
+    </script>
+
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>AlbertsMysteries.com</h1>
+    </div>
+
+    <div class="topnav">
+        <a href="/">Home</a>
+        <a href="/contact">Contact</a>
+        <a href="/about" style="float:right">About</a>
+    </div>
+    <br>
+
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <img class="image curved" src="images/005-photo-1543159821-9161ad7d5682.jpeg">
+            </div>
+        </div>
+
+
+        <div class="rightcolumn">
+
+            <div class="card">
+                <h2>005 Locker number...</h2>
+                <p>At security row number 5, a man with (methylene) blue hair instructs Miles and Veronica to put their luggage in trays.<br>
+                    <br> Veronica comments on the man's blue hair, and they have a laugh about it.<br>
+                    <br> The man examines Miles' tray and while readjusting it, he slips two pieces of paper and a key access card into the tray.<br>
+                    <br> Miles picks up his things from the tray after and quickly pockets the pieces of paper and key card.<br>
+                    <br> Veronica tells Miles he is acting weird, and Miles tells her he just needs the toilet.<br>
+                    <br> He goes there for some peace to look at the first piece of paper.<br>
+                    <br> It says that what he needs is in an airport staff locker and a row of numbers:
+                </p>
+
+                <p style="background-color:rgba(0, 0, 0, 0.8); text-align:left; font-size: 20px; padding-left: 25%;">
+                    3 15 14 2<br> 11 6 5 12<br> 5 9 13 7<br> 15 4 2 13</p>
+
+                <p>What's the number on the locker Miles is looking for?</p>
+            </div>
+
+
+            <div class="card center">
+
+                <div class="tooltip">Give me a clue...
+                    <span class="tooltiptext">Horizontal</span>
+                </div>
+
+            </div>
+
+            <div class="card center">
+                <!-- Display the countdown timer in an element -->
+                <br>
+                <span class="timer timer-small" id="TIMER"></span>
+                <br>
+                <form class="form1" onSubmit="checkCODE(); return false; ">
+                    <input class="form1" type="text" id="enterCODE" required autofocus>
+                </form>
+
+                <p><button id="NEXT" class="button button-green" type="button" style="visibility:hidden" ; onclick="clickNEXT()">NEXT</button></p>
+                <p id="checkCODE"></p>
+                <p><button class="button button-blue" type="button" value="checkMyCode" onclick="checkCODE()">CHECK MY CODE</button></p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <footer>&copy 2021, AlbertsMysteries.com, or its affiliates. All rights reserved.</footer>
+    </div>
+
+    <script src="js/005-locker-number.js"></script>
+
+</body>
+
+</html>

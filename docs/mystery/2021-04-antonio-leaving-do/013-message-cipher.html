@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <title>Alberts Mysteries - Valentines Disaster!</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WSPWTG9RX7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-WSPWTG9RX7');
+    </script>
+
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>AlbertsMysteries.com</h1>
+    </div>
+
+    <div class="topnav">
+        <a href="/">Home</a>
+        <a href="/contact">Contact</a>
+        <a href="/about" style="float:right">About</a>
+    </div>
+    <br>
+
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <img class="image curved" src="images/013-chris-yang-1tnS_BVy9Jk-unsplash.jpg">
+            </div>
+        </div>
+
+
+        <div class="rightcolumn">
+
+            <div class="card">
+                <h2>013 Message cipher...</h2>
+                <p>Miles managed to find the correct safehouse.<br>
+                    <br> It is dark with no one around and only a keypad locker on the front.<br>
+                    <br> Miles types in his specific spy code and the locker opens to reveal a code:<br>
+                </p>
+
+                <p style="background-color:rgba(0, 0, 0, 0.8); text-align:left; font-size: 20px; padding-left: 5%;">
+                    44 88 777 777 999 - 8 666 - 3 33 7777 8 444 66 2 8 444 666 66. 6 666 555 33 - 2 6 666 66 4 7777 8 - 88 7777.</p>
+
+                <p>Miles has no time to decipher it and hurries back to the hotel before Veronica wakes up.<br>
+                    <br> He makes it back to the hotel for a few hours sleep and then tries to decipher the code.<br>
+                    <br> What does it say?</p>
+            </div>
+
+
+            <div class="card center">
+
+                <div class="tooltip">Give me a clue...
+                    <span class="tooltiptext">Nokia 3310...</span>
+                </div>
+
+            </div>
+
+            <div class="card center">
+                <!-- Display the countdown timer in an element -->
+                <br>
+                <span class="timer timer-small" id="TIMER"></span>
+                <br>
+                <form class="form1" onSubmit="checkCODE(); return false; ">
+                    <input class="form1" type="text" id="enterCODE" required autofocus>
+                </form>
+
+                <p><button id="NEXT" class="button button-green" type="button" style="visibility:hidden" ; onclick="clickNEXT()">NEXT</button></p>
+                <p id="checkCODE"></p>
+                <p><button class="button button-blue" type="button" value="checkMyCode" onclick="checkCODE()">CHECK MY CODE</button></p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <footer>&copy 2021, AlbertsMysteries.com, or its affiliates. All rights reserved.</footer>
+    </div>
+
+
+    <script src="js/013-message-cipher.js"></script>
+
+</body>
+
+</html>

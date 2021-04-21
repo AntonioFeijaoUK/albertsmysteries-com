@@ -1,0 +1,219 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Verdana;
+    line-height: 1.5;
+    color: white;
+    background: black;
+    background-color: black;
+    /*font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;  */
+    /* Background Image */
+    background-image: url("../images/unsplash-space02.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+
+.timer {
+    text-align: center;
+    font-size: 300%;
+    margin-top: 10px;
+    color: yellow;
+}
+
+.form1 {
+    border: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 150%;
+    margin: 4px 2px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-green {
+    background: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button-green:hover {
+    background: #4CAF50;
+    color: white;
+}
+
+.button-blue {
+    background: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.button-blue:hover {
+    background: #008CBA;
+    color: white;
+}
+
+.header {
+    width: 100%;
+    color: white;
+    background: #000;
+    text-align: left;
+    font-size: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    /* background: #000; */
+    /*background-color: #000;*/
+    text-align: center;
+    font-size: 80%;
+    padding: 10px;
+}
+
+.container {
+    min-height: 100%;
+    /*position: relative;
+    overflow:auto;*/
+}
+
+.left {
+    /* background-color: #2196F3; */
+    padding: 5px;
+    float: left;
+    height: 100%;
+    width: 50%;
+    /* The width is 20%, by default */
+}
+
+.right-top {
+    /* background-color: #f1f1f1; */
+    padding: 5px;
+    float: left;
+    height: 50%;
+    width: 50%;
+    /* The width is 60%, by default */
+}
+
+.right-bottom {
+    /* background-color: #4CAF50; */
+    padding: 5px;
+    float: left;
+    height: 50%;
+    width: 50%;
+    /* The width is 20%, by default */
+}
+
+h1 {
+    /* color: #555555; */
+    /* font-family: verdana; */
+    font-size: 200%;
+    /* border: 2px solid powderblue;
+  padding: 30px;
+  background-color: rgba(255, 165, 0, 0.73); */
+}
+
+h2 {
+    /*  color: #555555; */
+    /* font-family: verdana; */
+    font-size: 150%;
+    /* border: 2px solid powderblue;
+  padding: 30px;
+  background-color: rgba(255, 165, 0, 0.73); */
+}
+
+p {
+    /* color: #555555; */
+    /* font-family: verdana; */
+    font-size: 100%;
+    /* border: 2px solid powderblue; */
+    /*  padding: 5px; */
+    /* background-color: rgba(255, 165, 0, 0.73);  */
+}
+
+.button-default {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-green {
+    background-color: #4CAF50;
+    /* Green */
+}
+
+.button-blue {
+    background-color: #008CBA;
+    /* Blue */
+}
+
+.button-red {
+    background-color: #f44336;
+    /* Red */
+}
+
+.button-gray {
+    background-color: #e7e7e7;
+    /* Gray */
+    color: black;
+}
+
+.button-black {
+    background-color: #555555;
+    /* Black */
+}
+
+
+/* https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query */
+
+* {
+    box-sizing: border-box;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+
+/* Use a media query to add a break point at 800px: */
+
+@media screen and (max-width:800px) {
+    .left,
+    .main,
+    .image,
+    .right-top,
+    .right-bottom {
+        width: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <title>Alberts Mysteries - Valentines Disaster!</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WSPWTG9RX7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-WSPWTG9RX7');
+    </script>
+
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>AlbertsMysteries.com</h1>
+    </div>
+
+    <div class="topnav">
+        <a href="/">Home</a>
+        <a href="/contact">Contact</a>
+        <a href="/about" style="float:right">About</a>
+    </div>
+    <br>
+
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <img class="image curved" src="images/006-photo-1570933721523-51137f0aaa57.jpeg">
+            </div>
+        </div>
+
+
+        <div class="rightcolumn">
+
+            <div class="card">
+                <h2>006 Padlock combination...</h2>
+                <p>Miles returns to Veronica who is very excited about their trip and finally spending time with Miles!
+                    <br>
+                    <br> Miles suggests Veronica gets a coffee while he goes to the 'boring electronics shop'.<br>
+                    <br> Veronica gets annoyed as this was meant to be time spent together, but Miles is not listening and is already leaving.<br>
+                    <br> However, he drops the second piece of paper the man with the blue hair gave him, next to Veronica who picks it up...<br>
+                    <br> Meanwhile, Miles is hurrying to find the correct locker to pick up the microchips.<br>
+                    <br> Locating locker 34, Miles finds a padlock with four digits.<br>
+                    <br> He searches his pocket for the second piece of paper from the security man, but it's gone!<br>
+                    <br> At the same time, a text from Veronica comes through.<br>
+                    <br> <i>'Miles, you're acting weird on what was meant to be a nice holiday together! You have 10
+                        minutes to come back or I'm going home!'</i><br>
+                    <br> She has also sent a picture of the piece of paper Miles dropped.<br>
+                    <br> It takes 8 minutes to run back to Veronica, so he only has 2 minutes to solve the clue.
+                </p>
+
+                <p style="background-color:rgba(0, 0, 0, 0.8); text-align:left; font-size: 20px; padding-left: 25%;">4 8 9 18 19 38 39 ?? ??</p>
+
+                <p>What is the combination for the padlock?</p>
+            </div>
+
+
+            <div class="card center">
+
+                <div class="tooltip">Give me a clue...
+                    <span class="tooltiptext">should should be easy</span>
+                </div>
+
+            </div>
+
+            <div class="card center">
+                <!-- Display the countdown timer in an element -->
+
+                <p class="timer timer-small" id="TIMER"></p>
+            </div>
+
+            <div class="card center" style="font-weight: bolder; ">
+                <select id="lockerNum1" name="lockerNum1" style="font-size: 24px;">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+
+                <select id="lockerNum2" name="lockerNum2" style="font-size: 24px;">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+
+                <select id="lockerNum3" name="lockerNum3" style="font-size: 24px;">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+
+                <select id="lockerNum4" name="lockerNum4" style="font-size: 24px;">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+
+
+            <div class="card center">
+
+                <p><button id="NEXT" class="button button-green" type="button" style="visibility:hidden" ; onclick="clickNEXT()">NEXT</button></p>
+                <p id="checkCODE"></p>
+                <p><button class="button button-blue" type="button" value="checkMyCode" onclick="checkCODE()">CHECK MY CODE</button></p>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    </div>
+
+
+    <div class="footer">
+        <footer>&copy 2021, AlbertsMysteries.com, or its affiliates. All rights reserved.</footer>
+    </div>
+
+    <script src="js/count-down-180s.js"></script>
+    <script src="js/006-padlock-combination.js"></script>
+
+</body>
+
+</html>

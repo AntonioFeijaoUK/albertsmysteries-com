@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <title>Alberts Mysteries - Valentines Disaster!</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WSPWTG9RX7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-WSPWTG9RX7');
+    </script>
+
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>AlbertsMysteries.com</h1>
+    </div>
+
+    <div class="topnav">
+        <a href="/">Home</a>
+        <a href="/contact">Contact</a>
+        <a href="/about" style="float:right">About</a>
+    </div>
+    <br>
+
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <img class="image curved" src="images/007-michal-parzuchowski-xFItahF3CY4-unsplash.jpg">
+            </div>
+        </div>
+
+
+        <div class="rightcolumn">
+
+            <div class="card">
+                <h2>007 Which gate...</h2>
+                <p>Miles opens the padlock and retrieves a small bag with microchips, that fits in his jacket pocket.<br>
+                    <br> Miles is hurrying back to Veronica before 10 minutes has elapsed, but he gets a feeling he is being followed...<br>
+                    <br> Two guys, the first is wearing a black cap, grey T-shirt, jeans and white trainers.<br>
+                    <br> The second guy has brown hair, black T-shirt, grey trousers and black trainers.<br>
+                    <br> He reaches an angry Veronica, who asks Miles which gate they need to go to.<br>
+                    <br> The two suspicious guys hover nearby, so Miles whispers to Veronica "<i>00001100</i>". <br>
+                    <br> Which gate do they need to reach?
+                </p>
+
+
+
+                <p>General tip: Pay attention!</p>
+            </div>
+
+
+            <div class="card center">
+
+                <div class="tooltip">Give me a clue...
+                    <span class="tooltiptext">Computers use me a lot...</span>
+                </div>
+
+            </div>
+
+            <div class="card center">
+                <!-- Display the countdown timer in an element -->
+                <br>
+                <span class="timer timer-small" id="TIMER"></span>
+                <br>
+                <form class="form1" onSubmit="checkCODE(); return false; ">
+                    <input class="form1" type="text" id="enterCODE" required autofocus>
+                </form>
+
+                <p><button id="NEXT" class="button button-green" type="button" style="visibility:hidden" ; onclick="clickNEXT()">NEXT</button></p>
+                <p id="checkCODE"></p>
+                <p><button class="button button-blue" type="button" value="checkMyCode" onclick="checkCODE()">CHECK MY CODE</button></p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <footer>&copy 2021, AlbertsMysteries.com, or its affiliates. All rights reserved.</footer>
+    </div>
+
+    <script src="js/007-which-gate.js"></script>
+</body>
+
+</html>

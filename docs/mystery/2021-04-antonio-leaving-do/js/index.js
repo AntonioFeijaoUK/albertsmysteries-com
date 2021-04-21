@@ -8,7 +8,7 @@ function checkCODE() {
     let CODE = document.getElementById("enterCODE").value
     let code = CODE.toLocaleLowerCase()
 
-    if (code == "albert004") {
+    if (code == "December03") {
         document.getElementById("checkCODE").innerHTML = ' "' + CODE + '" is CORRECT!!';
         //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
         //location.href = "./02kjdht.html";

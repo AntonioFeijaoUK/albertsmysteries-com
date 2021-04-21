@@ -3,8 +3,21 @@
 title: "Are you ready?"
 layout: default
 extra_javascript:
-    js/000-mission-begins.js
+    
 ---
+
+<script async src="js/000-mission-begins.js"></script>
+
+<div class="header">
+        <h1>AlbertsMysteries.com</h1>
+</div>
+
+<div class="topnav">
+        <a href="/">Home</a>
+        <a href="/contact" style="float:right">Contact</a>
+        <a href="/about" style="float:right">About</a>
+ </div>
+ <br>
 
 
 

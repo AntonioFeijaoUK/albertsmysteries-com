@@ -1,7 +1,7 @@
 ---
 #permalink: /mystery/
 title: "Are you ready?"
-layout: single
+layout: default
 ---
 
 Are you ready?

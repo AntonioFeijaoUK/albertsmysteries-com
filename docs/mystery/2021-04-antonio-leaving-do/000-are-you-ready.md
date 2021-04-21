@@ -16,9 +16,11 @@ YES / NO
     <input class="form1" type="text" id="enterCODE" required autofocus>
 </form>
 
-<p><button id="NEXT" class="button button-green" type="button" style="visibility:hidden" ; onclick="clickNEXT()">NEXT</button></p>
+<button id="NEXT" class="button button-green" type="button" style="visibility:hidden" ; onclick="clickNEXT()">NEXT</button>
+
 <p id="checkCODE"></p>
-<p><button class="button button-blue" type="button" value="checkMyCode" onclick="checkCODE()">CHECK MY CODE</button></p>
+
+<button class="button button-blue" type="button" value="checkMyCode" onclick="checkCODE()">CHECK MY CODE</button>
 
 <script src="js/000-mission-begins.js"></script>
 

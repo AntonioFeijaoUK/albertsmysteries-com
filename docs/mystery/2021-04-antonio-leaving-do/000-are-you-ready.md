@@ -2,7 +2,11 @@
 #permalink: /mystery/
 title: "Are you ready?"
 layout: default
+extra_javascript:
+    js/000-mission-begins.js
 ---
+
+
 
 Are you ready?
 
@@ -22,7 +26,6 @@ YES / NO
 
 <button class="button button-blue" type="button" value="checkMyCode" onclick="checkCODE()">CHECK MY CODE</button>
 
-<script src="js/000-mission-begins.js"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WSPWTG9RX7"></script>

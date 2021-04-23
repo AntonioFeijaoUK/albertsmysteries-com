@@ -1,7 +1,7 @@
 function clickNEXT() {
     // encode URL
     // encodedURL = btoa("index.html");
-    encodedURL = "MDAxLXdoaWNoLWNhcGl0YWwtY2l0eS5odG1s"
+    encodedURL = "MDE2LXdhdGVyLWdvZ2dsZXMuaHRtbA==";
     console.log("encodedURL : " + encodedURL);
 
     // decode URL
@@ -38,8 +38,8 @@ async function checkCODE() {
 
 
 
-    if (digestHex == "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d") {
-        document.getElementById("checkCODE").innerHTML = 'You got it right!';
+    if (digestHex == "534dcaea75f140955d8259b31d636978edb8478dd0c5bfb1c5f1f07f09f27f31" || digestHex == "f69fd0cfc99abb6229fda1b5f2b82ece2033e1b43f06461a637ba69c68e1112e") {
+        document.getElementById("checkCODE").innerHTML = 'You got it right! - https://goo.gl/maps/78d1He6mhBjFc9FC7';
         //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
         //location.href = "./02kjdht.html";
         document.getElementById("NEXT").style.visibility = "visible";

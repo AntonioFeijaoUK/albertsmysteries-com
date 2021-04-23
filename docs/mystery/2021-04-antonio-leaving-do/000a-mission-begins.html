@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-GB">
   <head>
-    <title>Alberts Mysteries</title>
+    <title>AlbertsMysteries.com</title>
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,7 +29,7 @@
 
     <div class="topnav">
       <a href="/">Home</a>
-      <a href="/contact">Contact</a>
+      <a href="/contact" style="float: right">Contact</a>
       <a href="/about" style="float: right">About</a>
     </div>
     <br />
@@ -37,48 +37,35 @@
     <div class="row">
       <div class="leftcolumn">
         <div class="card">
-          <img class="image curved" src="images/005-moritz-kindler-shdC9zPtPKU-unsplash.jpg" />
+          <img class="image curved" src="images/oil-rig.jpg" />
         </div>
       </div>
 
       <div class="rightcolumn">
-        <div class="card">
-          <h2>005 Locker number...</h2>
+        <div class="card" style="text-align: center">
+          <h2>Hi and Welcome!</h2>
 
-          <p>
-            Duncan's team is headed to Jastarnia, Poland for the B8 oilrig located in the Baltic sea.<br />
-            <br />
-            They are still able to communicate with the rest of the team using the earpieces.<br />
-            <br />
-            At the harbour, the team has been told to find a locker with more information about how to reach the oilrig.<br />
-            <br />
-            First, they need to find the correct locker.<br />
-            <br />
-            They only have the following information from the envelope in Bastien's bag.
-          </p>
+          <div class="card" style="text-align: left">
+            <p>It's Friday afternoon and the team is having a relaxing game of dungeons and dragons!</p>
 
-          <p style="background-color: rgba(0, 0, 0, 0.8); text-align: left; font-size: 20px; padding-left: 25%;padding-top: 1%; padding-bottom: 1%;">
-            3 15 14 2<br />
-            11 6 5 12<br />
-            5 9 13 7<br />
-            15 4 2 13
-          </p>
+            <p>Duncan's phone has audibly been going off a few times, but everyone has politely ignored it.</p>
 
-          <p>What is the number on the locker the team is looking for?</p>
-        </div>
+            <p>The 5th time his phone rings, Duncan pauses the game and goes on mute to take his phone call while the rest of the team ponder strategy and sipping drinks.</p>
 
-        <div class="card center">
-          <div class="tooltip">
-            Give me a clue...
-            <span class="tooltiptext">Horizontal</span>
+            <p>
+              Five minutes later, Duncan comes back and excitedly tells everyone about an old friend from his oilrig days, Miles, who has asked for Duncan's help to get a package
+              out of the oilrig.
+            </p>
+
+            <p>Miles is staying on the oilrig for another month, but he was quite adamant that the package leaving is rather time sensitive.</p>
+
+            <p>Duncan trusts Miles explicitly, so has promised to help. As it is a bit of an undertaking, Duncan asks the whole team to come and help him!</p>
+
+            <p>Are you ready to help Miles?</p>
           </div>
-        </div>
 
-        <div class="card center">
-          <!-- Display the countdown timer in an element -->
-          <br />
-          <span class="timer timer-small" id="TIMER"></span>
-          <br />
+          <p><code>YES</code> or <code>NO</code></p>
+
           <form class="form1" onSubmit="checkCODE(); return false; ">
             <input class="form1" type="text" id="enterCODE" required autofocus />
           </form>
@@ -94,6 +81,6 @@
       <footer>&copy 2021, AlbertsMysteries.com, or its affiliates. All rights reserved.</footer>
     </div>
 
-    <script src="js/005-locker-number.js"></script>
+    <script src="js/000a-mission-begins.js"></script>
   </body>
 </html>

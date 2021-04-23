@@ -1,7 +1,7 @@
 function clickNEXT() {
     // encode URL
     // encodedURL = btoa("index.html");
-    encodedURL = "MDAwYS1taXNzaW9uLWJlZ2lucy5odG1s"
+    encodedURL = "MDAwYi1pbnRyby5odG1s"
     console.log("encodedURL : " + encodedURL);
 
     // decode URL
@@ -37,9 +37,9 @@ async function checkCODE() {
     console.log(digestHex);
 
 
-    // HASH FOR LOWER CASE....
-    if (digestHex == "966705fd5e3e89d8c2c11cb99d4268470c37f9155bfc059040720a23dbfaccdf") {
-        document.getElementById("checkCODE").innerHTML = 'You got it right!';
+
+    if (digestHex == "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d") {
+        document.getElementById("checkCODE").innerHTML = 'AWSome!';
         //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
         //location.href = "./02kjdht.html";
         document.getElementById("NEXT").style.visibility = "visible";

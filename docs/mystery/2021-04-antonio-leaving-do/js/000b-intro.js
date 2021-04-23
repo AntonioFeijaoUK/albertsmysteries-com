@@ -1,7 +1,7 @@
 function clickNEXT() {
     // encode URL
     // encodedURL = btoa("index.html");
-    encodedURL = "MDE2LXdhdGVyLWdvZ2dsZXMuaHRtbA==";
+    encodedURL = "MDAwYi1pbnRyby5odG1s"
     console.log("encodedURL : " + encodedURL);
 
     // decode URL
@@ -38,8 +38,8 @@ async function checkCODE() {
 
 
 
-    if (digestHex == "d01e432a6751567a949438ad357cde650acca53872e0beeb5c0f4818191d306a" || digestHex == "a00b043a0efe7284c49f9589a96a448d445f4508656a095141fd71fefae975cb") {
-        document.getElementById("checkCODE").innerHTML = 'You got it right!';
+    if (digestHex == "8482e654892573900293c2fe38bd8365267e6069e3ae11b53712e7806a3edefd") {
+        document.getElementById("checkCODE").innerHTML = 'Fantastic! But come back later and join the team!';
         //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
         //location.href = "./02kjdht.html";
         document.getElementById("NEXT").style.visibility = "visible";

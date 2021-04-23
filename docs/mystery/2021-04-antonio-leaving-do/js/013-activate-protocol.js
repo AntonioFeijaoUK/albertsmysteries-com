@@ -1,7 +1,7 @@
 function clickNEXT() {
     // encode URL
     // encodedURL = btoa("index.html");
-    encodedURL = "MDE0LXRoZS10d28tY2l0aWVzLmh0bWw=";
+    encodedURL = "MDE0LWFpcnBvcnQtc3RvcC1zaWduLmh0bWw=";
     console.log("encodedURL : " + encodedURL);
 
     // decode URL
@@ -39,7 +39,7 @@ async function checkCODE() {
 
 
     if (digestHex == "ac1b82ee7eafa2c756100bc8f1023b5e9031d950ceb75f4585044e303e83eb6f" || digestHex == "ac1b82ee7eafa2c756100bc8f1023b5e9031d950ceb75f4585044e303e83eb6f") {
-        document.getElementById("checkCODE").innerHTML = 'You got it right!';
+        document.getElementById("checkCODE").innerHTML = 'You got it right! - https://www.aboutamazon.com/about-us/leadership-principles';
         //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
         //location.href = "./02kjdht.html";
         document.getElementById("NEXT").style.visibility = "visible";

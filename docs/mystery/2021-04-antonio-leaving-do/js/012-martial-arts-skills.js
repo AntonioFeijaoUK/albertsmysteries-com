@@ -1,7 +1,7 @@
 function clickNEXT() {
     // encode URL
     // encodedURL = btoa("index.html");
-    encodedURL = "MDExLW1lc3NhZ2UtdG8tc3VwZXJpb3JzLmh0bWw=";
+    encodedURL = "MDEzLWFjdGl2YXRlLXByb3RvY29sLmh0bWw=";
     console.log("encodedURL : " + encodedURL);
 
     // decode URL

@@ -1,7 +1,7 @@
 function clickNEXT() {
     // encode URL
     // encodedURL = btoa("index.html");
-    encodedURL = "MDAwYi1pbnRyby5odG1s"
+    encodedURL = "MDAxLW1pbGVzLXdvcmsuaHRtbA=="
     console.log("encodedURL : " + encodedURL);
 
     // decode URL
@@ -37,17 +37,18 @@ async function checkCODE() {
     console.log(digestHex);
 
 
-    
-
-
-
-    if (digestHex == "8482e654892573900293c2fe38bd8365267e6069e3ae11b53712e7806a3edefd") {
-        document.getElementById("checkCODE").innerHTML = 'Fantastic! But come back later and join with the team!';
+    if (digestHex == "622edd9215f915bef53d01c538d0e9d9b6025e3bad28d66fce5ede27f1a09ed8" || digestHex == "e9732851e070156311b50d4f2c8b829447d95ed5e99a57c329a2840234e45ccf") {
+        document.getElementById("checkCODE").innerHTML = 'You got it right!';
         //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
         //location.href = "./02kjdht.html";
         document.getElementById("NEXT").style.visibility = "visible";
+    } else if (digestHex == "8482e654892573900293c2fe38bd8365267e6069e3ae11b53712e7806a3edefd") {
+        document.getElementById("checkCODE").innerHTML = 'Fantastic! But come back later and join with the team!';
+        //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
+        //location.href = "./02kjdht.html";
+        document.getElementById("NEXT").style.visibility = "hidden";
     } else if (digestHex == "f9d800c772792e8c4b06021e15b6d193d5c96532f6bb9f4080c97a4ae3604fde") {
-        document.getElementById("checkCODE").innerHTML = 'Close... but I am expecting an an email address instead...';
+        document.getElementById("checkCODE").innerHTML = 'Close... but I am expecting a specific email address instead...';
         //alert(' " ' + CODE + ' " is INCORRECT. Not so well done!');
         //location.href = "./02kjdht.html";
         document.getElementById("NEXT").style.visibility = "hidden";

@@ -37,12 +37,20 @@ async function checkCODE() {
     console.log(digestHex);
 
 
+    
+
+
 
     if (digestHex == "8482e654892573900293c2fe38bd8365267e6069e3ae11b53712e7806a3edefd") {
-        document.getElementById("checkCODE").innerHTML = 'Fantastic! But come back later and join the team!';
+        document.getElementById("checkCODE").innerHTML = 'Fantastic! But come back later and join with the team!';
         //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
         //location.href = "./02kjdht.html";
         document.getElementById("NEXT").style.visibility = "visible";
+    } else if (digestHex == "f9d800c772792e8c4b06021e15b6d193d5c96532f6bb9f4080c97a4ae3604fde") {
+        document.getElementById("checkCODE").innerHTML = 'Close... but I am expecting an an email address instead...';
+        //alert(' " ' + CODE + ' " is INCORRECT. Not so well done!');
+        //location.href = "./02kjdht.html";
+        document.getElementById("NEXT").style.visibility = "hidden";
     } else if (code == "no") {
         document.getElementById("checkCODE").innerHTML = 'Ohhh no...';
         //alert(' " ' + CODE + ' " is INCORRECT. Not so well done!');
